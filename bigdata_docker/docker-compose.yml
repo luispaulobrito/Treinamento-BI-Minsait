@@ -53,6 +53,7 @@ services:
       - hive-metastore
     volumes:
       - ./data/teste:/teste
+      - ../input:/input
     deploy:
       resources:
         limits:
